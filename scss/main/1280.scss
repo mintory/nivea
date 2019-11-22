@@ -1,0 +1,154 @@
+@media screen and (min-width: 1280px){
+	#headBox{position:fixed; z-index:200; top:0; left:0; right:0; margin:auto; 
+			width: 100%; max-width:1440px; height: 120px; background-color: #fff;
+
+	>h1{float:left; width: 30%; height: 120px; margin-left:2vw;
+		>a{display:block; width: 100%; height: 100%; 
+		background-image:url("../../nivea_image/logo/nivea_logo.png");
+		background-repeat:no-repeat; background-size:contain; background-position:50% 50%;
+		}//a
+	}//h1
+
+>.navgation{float:left; width: 60%; height: 100%;
+	>ul{ width: 100%; height: 100%;
+		>li{float: left; width: auto; height: 100%; margin-right: 7vw;
+				&:last-child{margin-right:0;}
+				&:first-child{margin-left:8vw;}
+			>button{display:block; width: 100%; height: 100%; color:#00136F; text-transform: uppercase;
+					line-height:120px; font-size: 1.125rem; background-color: transparent;
+			}//a
+		&>.slide{position:absolute; left:40%; width: 60%; height: 200px; 
+			background-color: #fff; border:3px solid #00136F; border-top:0; padding-left:2%; box-sizing:border-box;
+			>dl{float:left; width: 30%; height: 100%;
+				>dt{color:#00136F; font-weight:999; font-size: 1.1rem; padding:30px;}//dt
+				>dd{width: 180px; margin-bottom:10px; text-indent: 30px;
+						>a{display:block; width: 100%; height: 100%; color:#333;}
+						}//dd
+				}//dl
+		&.slide_003{height: 270px;
+				>dl{width: 50%; height: 65%;}
+				>dl:last-of-type{width: 100%; height: auto; margin-top:20px;
+					>dt{float:left;margin-right:11vw; padding:10px 20px;
+						&:last-child{margin-right:0;}
+						>a{display:block; color:#00136F; font-weight:999; font-size: 1.1rem; width: 100%; height: 100%;
+
+							}//a
+					 	}//dt
+					}//dl-last-of-type
+				}//slide_003			
+
+			}//slide
+		
+		&:nth-child(1)>.slide_001{display:none;}
+		&:nth-child(2)>.slide_002{display:none;}
+		&:nth-child(3)>.slide_003{display:none;}
+		}//li
+	}//ul
+}//nav
+
+&:before{content:" "; display:block; position:absolute; bottom:0; left:0;  
+				width: 100%; height:0; border:1px solid #E8E8E8;}
+
+}//headBox
+#contentBox{z-index:30; width: 100%; max-width:1440px; height: auto; margin:auto; padding-top:180px; 
+	.main_slide{position:fixed; top:80px; left:0; right:0; margin:auto; overflow: hidden;
+			width: 100%; max-width:1440px; height: 500px; margin-top:80px;
+	>.btn{position:absolute; top:20px; left:10px; z-index:30; width: 230px; height: 30px;
+		>button{float:left; margin-right: 20px; line-height:20px; background-color: transparent;  font-size: 1rem; color:#00136F}
+		>.indicator{width:200px; height: auto;
+			>li{float:left; margin-right:20px; width: 20px; height: 20px; 
+					border-radius:100%; background-color: #fff; border:0.5px solid #00136F ; line-height:30px;
+					>a{display:block; width: 100%; height: 100%; 
+
+			}
+		}
+		}
+	}
+
+
+		>ul{$count:4; position:relative; margin-left:-100%;
+					width: 100% * $count; height: 100%; 
+			>li{float:left; width: 100% / $count; height: 100%; 
+				background-size:100%; background-repeat:no-repeat; background-position:51% 50%;
+			&.main_slide_image_01{background-image:url("../../nivea_image/main/main_image_01.jpg");}
+			&.main_slide_image_02{background-image:url("../../nivea_image/main/nivea_insta_04.jpg");}
+			&.main_slide_image_03{background-image:url("../../nivea_image/main/nivea_ad_01.jpg");}
+				}//li
+		}//ul
+	}//main_slide
+
+
+	.whitebg{position:relative; z-index:100; margin-top:400px; padding-top: 50px;  width: 100%; height: 100%; background-color: #fff; border-radius: 30px 30px 0 0 ;
+		&:before{content:" "; display: block; width: 150px; height: 10px; border-radius:5px; background-color: #ccc; margin:auto;}
+		>.main_text{width: 400px; height: 80px; margin:auto; margin-top:30px; margin-bottom:30px;
+			>p{text-transform:uppercase; font-size: 2rem; text-align:center; color:#00136F;
+				font-weight: bold;}//p
+			}//main_text
+	.style_btn{width:100%; height: auto; margin:auto;
+		>ul{width: 90%; height: 100%; margin:auto;
+			>li{float:left; width: 300px; height: 50px; margin:auto; border:1.5px solid #00136F; border-radius:10px; 
+					margin-top: 50px; margin-right:5%; margin-left:5%;
+					&:last-child{margin-bottom:0; margin-right:0;}
+				>button{display:block; width: 100%; height: 100%; background-color:transparent;
+								text-align:center;	font-size: 0.8rem; color:#00136F;
+					&:hover{transition:all 400ms linear; background-color: #00136F; color:#fff; border-radius:8px;}
+				}//button
+			}//li
+		}//ul
+	}//style_btn
+
+	.forYou{width: 100%; height: 500px; background-color: #EEF2FD; margin-top:80px;
+		>p{text-align:center; text-transform:uppercase; font-size: 1.5rem; color:#00136F;
+			font-weight:bold;padding-top:20px;}//p
+
+		>ul{width: 100%; height: 100%;
+			>.allfor{float:left; width: 30%; height: 60%; margin-top:50px; margin-right:5%;
+				&:last-child{margin-right:0;}
+				>dt{font-size: 1rem; color:#00136F; text-align:center; font-weight:bold; margin-top:20px;}
+				>dd{font-size: 0.8rem; text-align:center; margin-top:20px; letter-spacing: -0.05rem;}		
+
+				>.allimg{width: 250px; height: 250px; margin:auto; border-radius:20px; background-color: #fff;
+						background-position:50% 50%; background-size:cover; background-repeat:no-repeat;
+				}//allimg
+			>.for_img01{background-image:url("../../nivea_image/main/nivea_ad_03.jpg")}
+			>.for_img02{background-image:url("../../nivea_image/main/nivea_ad_02.jpg")}
+			>.for_img03{background-image:url("../../nivea_image/main/nivea_ad_01.jpg")}
+			}//allfor
+
+		}//ul
+	}//foryou
+
+
+	.bestChoice{width: 100%; height: auto; background-color: #fff; padding-bottom:80px;
+		>p{text-align:center; text-transform:uppercase; font-size: 1.5rem; color:#00136F;
+			font-weight:bold;padding-top:80px;}//p
+		>ul{width: 90%; height: 100%; margin:auto; margin-top:50px;
+			>li{float:left; width: 280px; height: 480px; margin-right:4.5%; background-color: #ccc;
+				&:last-child{margin-right:0;}
+			}//li
+		}//ul
+	}//bestChoice
+
+.media_area{width: 100%; height: auto; background-color: #F0F0F0; padding-top:20px;  margin-top:20px;
+		>p{text-align:center; text-transform:uppercase; font-size: 1.5rem; color:#00136F;
+			font-weight:bold;padding-top:30px;}//p
+		>ul{width: 90%; height: auto; margin: auto; margin-top:50px;
+			>li{float:left; width: 150px; height: 150px; margin-right:6.1%; margin-bottom:8%;
+					background-position:50% 50%; background-size:cover; background-repeat:no-repeat;
+			&:nth-child(1){background-image:url("../../nivea_image/main/nivea_insta_02.jpg")}
+			&:nth-child(2){background-image:url("../../nivea_image/main/nivea_insta_03.jpg")}
+			&:nth-child(3){background-image:url("../../nivea_image/main/nivea_insta_05.jpg");}
+			&:nth-child(4){background-image:url("../../nivea_image/main/nivea_insta_04.jpg")}
+			&:nth-child(5){background-image:url("../../nivea_image/main/nivea_insta_05.jpg")}
+			&:nth-child(6){background-image:url("../../nivea_image/main/nivea_insta_02.jpg");
+							margin-right:0;}
+			}//li
+		}//ul
+	}//media_area
+		}//whitebg
+	}//conBox
+
+#footBox{width: 100%; height: 180px; background-color: #00136F; margin-top:70px}
+
+
+}

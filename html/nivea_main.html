@@ -34,18 +34,83 @@
 		<h1> <a href="#"> <span class="hidden"> 니베아 </span> </a> </h1>
 		<nav class="navgation">
 			<ul>
-				<li> <a href="#">about</a></li>
-				<li> <a href="#">advice</a></li>
-				<li> <a href="#">products</a></li>
+<!-- --------------------------------------------------------------------- -->
+				<li class="slide_01"> <button type="button">about</button>
+				<div class="slide_001 slide">
+					<dl>
+						<dt>브랜드 & 컴퍼니</dt>
+						<dd><a href="">커리어</a></dd>
+						<dd><a href="">기업의 사회적 책임</a></dd>
+						<dd><a href="">히스토리</a></dd>
+					</dl>
+				</div>
+				</li>
+
+<!-- --------------------------------------------------------------------- -->
+				<li class="slide_02"> <button type="button">advice</button>
+				<div class="slide_002 slide">
+					<dl>
+						<dt>좋은 피부</dt>
+						<dd><a href="">스킨케어 팁</a></dd>
+						<dd><a href="">남성 피부</a></dd>
+						<dd><a href="">자외선 차단제</a></dd>
+					</dl>
+
+				</div>
+				</li>
+<!-- --------------------------------------------------------------------- -->
+				<li class="slide_03"> <button type="button">products</button>
+				<div class="slide_003 slide">
+					<dl>
+						<dt>바디</dt>
+						<dd><a href="">바디 로션</a></dd>
+						<dd><a href="">샤워</a></dd>
+						<dd><a href="">데오도란트</a></dd>
+					</dl>
+
+					<dl>
+						<dt>남성</dt>
+						<dd><a href="">쉐이빙</a></dd>
+						<dd><a href="">남성을 위한 모든 것</a></dd>
+						<dd><a href="">데오드란트</a></dd>
+					</dl>
+
+					<dl>
+						<dt><a href="">선 크림</a></dt>
+						<dt><a href="">니베아 크림</a></dt>
+						<dt><a href="">립 케어</a></dt>
+					</dl>
+				</div>
+				</li>
+<!-- --------------------------------------------------------------------- -->
 			</ul>
 		</nav>
 	</header>
 
+
+<!-- ----------------------------- header end ---------------------------- -->
+<!-- --------------------------------------------------------------------- -->
+
 	<main id="contentBox">
-		<h2>부제</h2>
+		<h2> <span class="hidden"> 니베아 컨텐츠 영 </span></h2>
 		<article class="main_slide">
+			<div class="btn">
+				<button type="button" class="prevBtn"> <i class="fas fa-chevron-left"></i>
+				<span class="hidden"> prevBtn </span></button>
+				
+				<ul class="indicator">
+					<li> <a href="#"></a> </li>
+					<li> <a href="#"></a> </li>
+					<li> <a href="#"></a> </li>
+				</ul>
+
+				<button type="button" class="nextBtn"> <i class="fas fa-chevron-right"></i>
+				<span class="hidden"> nextBtn </span></button>
+			</div>
 			<ul>
-				<li></li>
+				<li class="main_slide_image_01"></li>
+				<li class="main_slide_image_02"></li>
+				<li class="main_slide_image_03"></li>
 			</ul>
 		</article>
 		<div class="whitebg">
@@ -54,8 +119,8 @@
 					to beautiful skin </p>
 		</div>
 
-		<section class="style_btn">
-			<ul>
+		<section class="style_btn clearfix">
+			<ul class="clearfix">
 			<li> <button type="button"> 어떤 피부 타입이세요? </button> </li>
 			<li> <button type="button"> 아름다운 피부로 가꾸는 최고의 팁 </button> </li>
 			<li> <button type="button"> 저희가 도와드릴게요! 문의하기 </button> </li>
@@ -127,5 +192,6 @@
 	</noscript>
 	<script src="../js/base/jquery-3.4.1.min.js"></script>
 	<script src="../js/base/jquery-ui.min.js"></script>
+	<script src="../js/src/nivea_main.js"></script>
 </body>
 </html>
