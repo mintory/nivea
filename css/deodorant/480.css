@@ -101,4 +101,105 @@
           #headBox > .navgation > ul > li:nth-child(2) > .slide_002 {
             display: none; }
           #headBox > .navgation > ul > li:nth-child(3) > .slide_003 {
-            display: none; } }
+            display: none; }
+  #contentBox {
+    width: 100%;
+    height: auto;
+    max-width: 570px;
+    margin: auto;
+    padding-top: 80px; }
+    #contentBox > .main_image {
+      width: 100%;
+      height: 200px;
+      margin-top: 40px;
+      background-image: url("../../nivea_image/main/nivea_ad_02.jpg");
+      background-position: 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+    #contentBox > .menu_bar {
+      width: 100%;
+      height: 95px;
+      margin-top: 40px;
+      border-top: 1px solid #999;
+      border-bottom: 1px solid #999; }
+      #contentBox > .menu_bar > .menu_bar_text {
+        width: auto;
+        height: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #00136F;
+        font-size: 1.5rem;
+        padding-top: 13px; }
+      #contentBox > .menu_bar > .menu {
+        width: 100%;
+        height: 60px;
+        margin: auto;
+        text-align: center; }
+        #contentBox > .menu_bar > .menu > li {
+          display: inline-block;
+          margin-right: 2.5vw; }
+          #contentBox > .menu_bar > .menu > li:last-child {
+            margin-right: 0; }
+          #contentBox > .menu_bar > .menu > li > a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 60px;
+            font-size: 0.875rem; }
+    #contentBox > .product_area {
+      width: 100%;
+      height: auto;
+      margin-top: 40px; }
+      #contentBox > .product_area > ul {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        text-align: center; }
+        #contentBox > .product_area > ul > li {
+          position: relative;
+          display: inline-block;
+          width: 43vw;
+          max-width: 250px;
+          height: 70vw;
+          max-height: 400px;
+          margin-right: 3vw;
+          border-radius: 35px;
+          margin-bottom: 25px;
+          border: 2px solid #00136F;
+          background-image: url("../../nivea_image/sub_product/sun_01.jpg");
+          background-repeat: no-repeat;
+          background-position: 50% 20%;
+          background-size: contain; }
+          #contentBox > .product_area > ul > li:nth-child(2n) {
+            margin-right: 0; }
+          #contentBox > .product_area > ul > li:nth-child(5) {
+            display: none; }
+          #contentBox > .product_area > ul > li:nth-child(6) {
+            display: none; }
+          #contentBox > .product_area > ul > li:hover {
+            -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            transform: scale(1.05);
+            -webkit-transition: all 500ms ease;
+            -o-transition: all 500ms ease;
+            transition: all 500ms ease; }
+          #contentBox > .product_area > ul > li > dl {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 70px;
+            background-color: #00136F;
+            border-radius: 0 0 30px 30px;
+            color: #fff; }
+            #contentBox > .product_area > ul > li > dl > dt {
+              margin-top: 15px;
+              font-size: 0.9375rem; }
+            #contentBox > .product_area > ul > li > dl > dd {
+              margin-top: 5px;
+              font-size: 0.875rem; }
+  #footBox {
+    width: 100%;
+    height: 80px;
+    background-color: #00136F; } }

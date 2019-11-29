@@ -1,0 +1,86 @@
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+#headBox{position:fixed; z-index:200; top:0; left:0; width: 100%; height: 80px; background-color: #00146F;
+	>h1{float:left; width: 20%; height: 80px; margin-left:2vw;
+		>a{display:block; width: 100%; height: 100%; 
+		background-image:url("../../nivea_image/logo/nivea_logo.png");
+		background-repeat:no-repeat; background-size:contain; background-position:50% 50%;
+		}//a
+	}//h1
+
+>.navgation{float:left; width: 70%; height: 100%;
+	>ul{width: 100%; height: 100%;
+		>li{float: left; width: 30%; height: 100%; margin-right: 2vw;
+				&:last-child{margin-right:0;}
+				&:first-child{margin-left:0;}
+			>button{display:block; width: 100%; height: 100%; color:#fff; text-transform: uppercase;
+					line-height:80px; font-size: 0.8rem; background-color: transparent;
+			}//a
+		&>.slide{position:absolute; left:0; width: 100%; height: 200px; 
+			background-color: #fff; border:1px solid #00136F; padding-left:2%; box-sizing:border-box;
+			>dl{float:left; width: 50%; height: 100%;
+				>dt{color:#00136F; font-weight:999; font-size: 0.8rem; padding:30px;}//dt
+				>dd{width: 180px; margin-bottom:15px; text-indent: 30px;
+						>a{display:block; width: 100%; height: 100%; color:#333; font-size: 0.8rem;}
+						}//dd
+				}//dl
+		&.slide_003{height: 250px;
+				>dl{width: 50%; height: 65%;}
+				>dl:last-of-type{width: 100%; height: auto; margin-top:20px;
+					>dt{float:left;margin-right:30vw; padding:10px 20px;
+						&:last-child{margin-right:0;}
+						>a{display:block; color:#00136F; font-weight:999; font-size: 0.8rem; width: 100%; height: 100%;
+
+							}//a
+					 	}//dt
+					}//dl-last-of-type
+				}//slide_003
+			}//slide
+		
+
+
+		&:nth-child(1)>.slide_001{display:none;}
+		&:nth-child(2)>.slide_002{display:none;}
+		&:nth-child(3)>.slide_003{display:none;}
+		}//li
+	}//ul
+}//nav
+}//headBox
+#contentBox{width: 100%; height: auto; background-color: #fff; padding-top:80px;
+	>.career_text{width: 100%; height: 60px; background-color: #EEF2FD; margin-top: 55px;
+		>p{text-align:center; line-height:60px; color:#00136F; font-weight:bold;}
+		}//main_text
+
+	>.main_img{width: 83vw; height: 83vw; max-width:1100px; max-height: 400px;
+				 margin:auto; margin-top: 60px; background-color: #ccc;}
+	>.main_img_text{width: 83vw; height: auto; max-width:1000px; max-height: 400px; margin-top: 10px; margin-left: 9vw;
+		>p{font-size: 0.8125rem;}
+		}//main_img_text
+
+
+	>.main_img_02{width: 83vw; height: 83vw; max-width:1100px; max-height: 400px;
+				 margin:auto; margin-top: 60px; background-color: #ccc;}
+	>.main_img_text_02{width: 83vw; height: auto; max-width:1000px; max-height: 400px; margin-top: 10px; margin-left: 9vw;
+		>p{font-size: 0.8125rem;}
+	}//main_img_text_02
+
+	>.hire_text{width: 100%; height: 60px; background-color: #EEF2FD; margin-top: 55px;
+		>p{text-align:center; line-height:60px; color:#00136F; font-weight:bold;}
+		}//main_text_02
+	>.hire_text_Box{width: 90vw; height: auto; margin:auto;
+					margin-top: 40px;
+		>p{text-align:center; font-size: 0.9rem;}}
+	>.hire_text_image{width: 62.5vw; height: 62.5vw; max-width:300px; max-height:300px;
+						background-color: #aaa; margin:auto; margin-top: 40px;}
+	>.hire_text_sub{text-align:center; margin-top:10px;
+		>a{font-size: 1.125rem; font-weight: 999; color:#00136F;}
+	}//
+
+	}//conBox
+
+
+#footBox{width: 100%; height: 80px; background-color: #00136F; margin-top:40px;}
+
+
+
+}//media

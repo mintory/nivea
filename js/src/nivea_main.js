@@ -54,6 +54,8 @@ console.log(indiLi);
 
 // ---------------------------------
 
+let timed = 1000;
+
 const indiAcc = function(i){
 		indiLi.eq(i).siblings().css({backgroundColor:'#fff'});
 		indiLi.eq(i).css({backgroundColor:'#00136F'});
@@ -74,14 +76,34 @@ prevBtn.on('click',function(e){
 	e.preventDefault();
 	i--;
 	slideUl.stop().animate({'left':-100 * i +'%'}, function(){
-	if(i <= -1){
-		slideUl.stop().css({'left':-100*(imgLen-2)+'%'});
-		i = imgLen-2;
-		indiAcc(i);
+		if(i < 0){
+			slideUl.stop().css({'left':-100*(imgLen-2)+'%'});
+			i = imgLen-2;
 		};//if
+		indiAcc(i);
 	});//animate
 })//prevBtn
 
+
+const AutoSlide = function(){
+	go = setInterval(function(){
+		nextBtn.trigger('click');
+
+	}, timed * 3);
+};
+const stopSlide = function(){
+	clearInterval(go);
+};
+
+AutoSlide();
+
+slideUl.on('mouseenter',function(){
+	stopSlide();
+});
+
+slideUl.on('mouseleave', function(){
+	AutoSlide();
+})
 
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------

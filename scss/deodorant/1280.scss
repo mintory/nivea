@@ -1,0 +1,92 @@
+@media screen and (min-width: 1280px){
+		#headBox{position:fixed; z-index:200; top:0; left:0; right:0; margin:auto;
+			width: 100%; max-width:1440px; height: 120px; background-color: #fff;
+
+	>h1{float:left; width: 30%; height: 120px; margin-left:2vw;
+		>a{display:block; width: 100%; height: 100%; 
+		background-image:url("../../nivea_image/logo/nivea_logo.png");
+		background-repeat:no-repeat; background-size:contain; background-position:50% 50%;
+		}//a
+	}//h1
+
+>.navgation{float:left; width: 60%; height: 100%;
+	>ul{ width: 100%; height: 100%; max-width:1440px;
+		>li{float: left; width: auto; height: 100%; margin-right: 6vw;
+				&:last-child{margin-right:0;}
+				&:first-child{margin-left:8vw;}
+			>button{display:block; width: 100%; height: 100%; color:#00136F; text-transform: uppercase;
+					line-height:120px; font-size: 1.125rem; background-color: transparent;
+			}//a
+		&>.slide{position:absolute; left:40%; width: 60%; height: 200px; 
+			background-color: #fff; border:3px solid #00136F; border-top:0; padding-left:2%; box-sizing:border-box;
+			>dl{float:left; width: 30%; height: 100%;
+				>dt{color:#00136F; font-weight:999; font-size: 1.1rem; padding:30px;}//dt
+				>dd{width: 180px; margin-bottom:10px; text-indent: 30px;
+						>a{display:block; width: 100%; height: 100%; color:#333;}
+						}//dd
+				}//dl
+		&.slide_003{height: 270px;
+				>dl{width: 50%; height: 65%;}
+				>dl:last-of-type{width: 100%; height: auto; margin-top:20px;
+					>dt{float:left;margin-right:11vw; padding:10px 20px;
+						&:last-child{margin-right:0;}
+						>a{display:block; color:#00136F; font-weight:999; font-size: 1.1rem; width: 100%; height: 100%;
+
+							}//a
+					 	}//dt
+					}//dl-last-of-type
+				}//slide_003			
+
+			}//slide
+		
+		&:nth-child(1)>.slide_001{display:none;}
+		&:nth-child(2)>.slide_002{display:none;}
+		&:nth-child(3)>.slide_003{display:none;}
+		}//li
+	}//ul
+}//nav
+
+&:before{content:" "; display:block; position:absolute; bottom:0; left:0;  
+				width: 100%; height:0; border:1px solid #E8E8E8;}
+
+}//headBox
+// -----------------------
+#contentBox{width: 100%; height: auto; background-color: #fff; 
+			padding-top:120px; max-width:1440px; margin: auto;
+	>.main_image{float:right; width: 80%; height: 460px; margin-top:90px; background-color: #cfa;}
+	>.menu_bar{float:left; width: 20%; height: 500px; margin-top:50px;
+		>.menu_bar_text{width: 90%; height: 100px; margin: auto; text-align:center; 
+						text-transform:uppercase; font-size: 1.3125rem;
+						font-weight: bold; color:#00136F; line-height:100px;}//menu_bar_text
+		>.menu{width: 90%; height: 398px; margin:auto; border-top:1px solid #999; border-bottom:1px solid #999;
+			>li{width: auto; height: auto; margin-bottom:40px; font-size:1rem;
+			&:first-child{margin-top:35px;} 
+			&:last-child{margin-bottom:0;}
+			>a{display:block; width: 100%; height: 100%;}}
+
+		}//ul
+	}//menu_bar
+
+
+
+	>.product_area{float:right; width: 80%; height: auto; margin-top:50px;
+		>ul{width: 100%; height: 100%; text-align:center;
+		>li{position:relative; display:inline-block; float:left; width: 29.5%; height: 40vw; max-height:600px;
+				border:2px solid #00136F; border-radius:30px; margin-right: 5%; margin-bottom:60px;
+			&:nth-child(3n){margin-right:0;}
+		>dl{position:absolute; bottom:0; left:0; width: 100%; height: 100px; 
+			background-color: #00136F; color:#fff; border-radius:0 0 25px 25px;
+		 >dt{margin-top:15px; font-size: 1.3125rem;}
+		>dd{margin-top:17px; font-size: 0.875rem;}
+			}//dd
+		}//li
+	  }//ul
+	}//product_area
+}//contentBox
+
+#footBox{ width: 100%; height: 180px; background-color: #00136F; margin-top:30px; max-width:1440px; margin:auto;}
+
+
+
+
+}

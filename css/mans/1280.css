@@ -1,0 +1,208 @@
+@media screen and (min-width: 1280px) {
+  #headBox {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 120px;
+    background-color: #fff; }
+    #headBox > h1 {
+      float: left;
+      width: 30%;
+      height: 120px;
+      margin-left: 2vw; }
+      #headBox > h1 > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; }
+    #headBox > .navgation {
+      float: left;
+      width: 60%;
+      height: 100%; }
+      #headBox > .navgation > ul {
+        width: 100%;
+        height: 100%;
+        max-width: 1440px; }
+        #headBox > .navgation > ul > li {
+          float: left;
+          width: auto;
+          height: 100%;
+          margin-right: 6vw; }
+          #headBox > .navgation > ul > li:last-child {
+            margin-right: 0; }
+          #headBox > .navgation > ul > li:first-child {
+            margin-left: 8vw; }
+          #headBox > .navgation > ul > li > button {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #00136F;
+            text-transform: uppercase;
+            line-height: 120px;
+            font-size: 1.125rem;
+            background-color: transparent; }
+          #headBox > .navgation > ul > li > .slide {
+            position: absolute;
+            left: 40%;
+            width: 60%;
+            height: 200px;
+            background-color: #fff;
+            border: 3px solid #00136F;
+            border-top: 0;
+            padding-left: 2%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+            #headBox > .navgation > ul > li > .slide > dl {
+              float: left;
+              width: 30%;
+              height: 100%; }
+              #headBox > .navgation > ul > li > .slide > dl > dt {
+                color: #00136F;
+                font-weight: 999;
+                font-size: 1.1rem;
+                padding: 30px; }
+              #headBox > .navgation > ul > li > .slide > dl > dd {
+                width: 180px;
+                margin-bottom: 10px;
+                text-indent: 30px; }
+                #headBox > .navgation > ul > li > .slide > dl > dd > a {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  color: #333; }
+            #headBox > .navgation > ul > li > .slide.slide_003 {
+              height: 270px; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl {
+                width: 50%;
+                height: 65%; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type {
+                width: 100%;
+                height: auto;
+                margin-top: 20px; }
+                #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt {
+                  float: left;
+                  margin-right: 11vw;
+                  padding: 10px 20px; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt:last-child {
+                    margin-right: 0; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt > a {
+                    display: block;
+                    color: #00136F;
+                    font-weight: 999;
+                    font-size: 1.1rem;
+                    width: 100%;
+                    height: 100%; }
+          #headBox > .navgation > ul > li:nth-child(1) > .slide_001 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(2) > .slide_002 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(3) > .slide_003 {
+            display: none; }
+    #headBox:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      border: 1px solid #E8E8E8; }
+  #contentBox {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 120px;
+    max-width: 1440px;
+    margin: auto; }
+    #contentBox > .main_image {
+      float: right;
+      width: 80%;
+      height: 460px;
+      margin-top: 90px;
+      background-color: #3ca; }
+    #contentBox > .menu_bar {
+      float: left;
+      width: 20%;
+      height: 500px;
+      margin-top: 50px; }
+      #contentBox > .menu_bar > .menu_bar_text {
+        width: 90%;
+        height: 100px;
+        margin: auto;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.3125rem;
+        font-weight: bold;
+        color: #00136F;
+        line-height: 100px; }
+      #contentBox > .menu_bar > .menu {
+        width: 90%;
+        height: 398px;
+        margin: auto;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999; }
+        #contentBox > .menu_bar > .menu > li {
+          width: auto;
+          height: auto;
+          margin-bottom: 40px;
+          font-size: 1rem; }
+          #contentBox > .menu_bar > .menu > li:first-child {
+            margin-top: 35px; }
+          #contentBox > .menu_bar > .menu > li:last-child {
+            margin-bottom: 0; }
+          #contentBox > .menu_bar > .menu > li > a {
+            display: block;
+            width: 100%;
+            height: 100%; }
+    #contentBox > .product_area {
+      float: right;
+      width: 80%;
+      height: auto;
+      margin-top: 50px; }
+      #contentBox > .product_area > ul {
+        width: 100%;
+        height: 100%;
+        text-align: center; }
+        #contentBox > .product_area > ul > li {
+          position: relative;
+          display: inline-block;
+          float: left;
+          width: 29.5%;
+          height: 40vw;
+          max-height: 600px;
+          border: 2px solid #00136F;
+          border-radius: 30px;
+          margin-right: 5%;
+          margin-bottom: 60px; }
+          #contentBox > .product_area > ul > li:nth-child(3n) {
+            margin-right: 0; }
+          #contentBox > .product_area > ul > li > dl {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #00136F;
+            color: #fff;
+            border-radius: 0 0 25px 25px; }
+            #contentBox > .product_area > ul > li > dl > dt {
+              margin-top: 15px;
+              font-size: 1.3125rem; }
+            #contentBox > .product_area > ul > li > dl > dd {
+              margin-top: 17px;
+              font-size: 0.875rem; }
+  #footBox {
+    width: 100%;
+    height: 180px;
+    background-color: #00136F;
+    margin-top: 30px;
+    max-width: 1440px;
+    margin: auto; } }
