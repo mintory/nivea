@@ -23,4 +23,18 @@ slide_li.on('mouseleave',function(){
 // ------------------------------------------------------------------------
 // ------------------------------------------------------------------------
 
+const slideBox = $('.slideBox');
+const ul = slideBox.children('ul');
+const li = ul.children('li');
+
+i=0;
+
+setInterval(function(){
+	i++;
+	ul.animate({'marginLeft':-100 * i +'%'})
+	if(i>=4){i=0}
+},2000);
+
+
+
 })(jQuery);

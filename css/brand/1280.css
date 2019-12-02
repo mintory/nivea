@@ -1,0 +1,262 @@
+@media screen and (min-width: 1280px) {
+  #headBox {
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 120px;
+    background-color: #fff; }
+    #headBox > h1 {
+      float: left;
+      width: 30%;
+      height: 120px;
+      margin-left: 2vw; }
+      #headBox > h1 > a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; }
+    #headBox > .navgation {
+      float: left;
+      width: 60%;
+      height: 100%; }
+      #headBox > .navgation > ul {
+        width: 100%;
+        height: 100%;
+        max-width: 1440px; }
+        #headBox > .navgation > ul > li {
+          float: left;
+          width: auto;
+          height: 100%;
+          margin-right: 6vw; }
+          #headBox > .navgation > ul > li:last-child {
+            margin-right: 0; }
+          #headBox > .navgation > ul > li:first-child {
+            margin-left: 8vw; }
+          #headBox > .navgation > ul > li > button {
+            display: block;
+            width: 100%;
+            height: 100%;
+            color: #00136F;
+            text-transform: uppercase;
+            line-height: 120px;
+            font-size: 1.125rem;
+            background-color: transparent; }
+          #headBox > .navgation > ul > li > .slide {
+            position: absolute;
+            left: 40%;
+            width: 60%;
+            height: 200px;
+            background-color: #fff;
+            border: 3px solid #00136F;
+            border-top: 0;
+            padding-left: 2%;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+            #headBox > .navgation > ul > li > .slide > dl {
+              float: left;
+              width: 30%;
+              height: 100%; }
+              #headBox > .navgation > ul > li > .slide > dl > dt {
+                color: #00136F;
+                font-weight: 999;
+                font-size: 1.1rem;
+                padding: 30px; }
+              #headBox > .navgation > ul > li > .slide > dl > dd {
+                width: 180px;
+                margin-bottom: 10px;
+                text-indent: 30px; }
+                #headBox > .navgation > ul > li > .slide > dl > dd > a {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  color: #333; }
+            #headBox > .navgation > ul > li > .slide.slide_003 {
+              height: 270px; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl {
+                width: 50%;
+                height: 65%; }
+              #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type {
+                width: 100%;
+                height: auto;
+                margin-top: 20px; }
+                #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt {
+                  float: left;
+                  margin-right: 11vw;
+                  padding: 10px 20px; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt:last-child {
+                    margin-right: 0; }
+                  #headBox > .navgation > ul > li > .slide.slide_003 > dl:last-of-type > dt > a {
+                    display: block;
+                    color: #00136F;
+                    font-weight: 999;
+                    font-size: 1.1rem;
+                    width: 100%;
+                    height: 100%; }
+          #headBox > .navgation > ul > li:nth-child(1) > .slide_001 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(2) > .slide_002 {
+            display: none; }
+          #headBox > .navgation > ul > li:nth-child(3) > .slide_003 {
+            display: none; }
+    #headBox:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 0;
+      border: 1px solid #E8E8E8; }
+  #contentBox {
+    width: 100%;
+    height: 1800px;
+    padding-top: 180px;
+    max-width: 1440px;
+    margin: auto;
+    background-color: #fff;
+    padding-bottom: 80px;
+    background-repeat: no-repeat; }
+    #contentBox > .brand_textBox {
+      width: 100%;
+      height: 85px;
+      margin-top: 50px;
+      max-width: 1440px;
+      margin: auto;
+      background-color: rgba(30, 30, 30, 0.3); }
+      #contentBox > .brand_textBox > p {
+        text-align: center;
+        line-height: 85px;
+        font-weight: bold;
+        font-size: 1.5rem; }
+    #contentBox > .imageBox {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 70px; }
+      #contentBox > .imageBox > .image_L {
+        float: left;
+        width: 35%;
+        height: 400px;
+        background-color: #fac; }
+      #contentBox > .imageBox > .image_R {
+        float: right;
+        width: 60%;
+        height: 400px;
+        background-color: #fcc; }
+    #contentBox > .text_box_p {
+      float: left;
+      width: 65%;
+      height: auto;
+      margin: auto;
+      margin-top: 80px; }
+      #contentBox > .text_box_p > .textBox123 {
+        width: 100%;
+        height: 130px;
+        background-color: rgba(1, 1, 1, 0.1);
+        margin-top: 40px; }
+        #contentBox > .text_box_p > .textBox123 > dl {
+          width: 100%;
+          height: 100%; }
+          #contentBox > .text_box_p > .textBox123 > dl > dt {
+            font-size: 1.2rem;
+            text-indent: 20px;
+            padding-top: 20px;
+            font-weight: bold; }
+          #contentBox > .text_box_p > .textBox123 > dl > dd {
+            font-size: 1rem;
+            padding: 15px 20px; }
+        #contentBox > .text_box_p > .textBox123:first-child {
+          margin-top: 0; }
+    #contentBox > .text_box_iii {
+      float: right;
+      width: 30%;
+      height: 300px;
+      margin-top: 80px;
+      background-color: #888; }
+    #contentBox > .oli_Box {
+      float: left;
+      width: 100%;
+      height: auto;
+      margin-top: 80px; }
+      #contentBox > .oli_Box > .oil_image {
+        float: left;
+        width: 65%;
+        height: 300px;
+        background-image: url("../../nivea_image/sub_product/oil.png");
+        background-position: 50% 50%;
+        background-size: cover; }
+      #contentBox > .oli_Box > .oil_textBox {
+        float: right;
+        width: 30%;
+        height: 300px;
+        background-color: rgba(1, 1, 1, 0.1); }
+        #contentBox > .oli_Box > .oil_textBox > dl {
+          width: 100%;
+          height: 100%; }
+          #contentBox > .oli_Box > .oil_textBox > dl > dt {
+            font-size: 1.2rem;
+            text-indent: 20px;
+            padding-top: 55px;
+            font-weight: bold; }
+          #contentBox > .oli_Box > .oil_textBox > dl > dd {
+            font-size: 1rem;
+            padding: 15px 20px; }
+    #contentBox > .animalBox {
+      float: left;
+      width: 30%;
+      height: 400px;
+      margin-top: 80px; }
+      #contentBox > .animalBox > .animal_img {
+        width: 100%;
+        height: 300px;
+        background-color: #caa;
+        margin-bottom: 30px; }
+      #contentBox > .animalBox > .animal_text {
+        width: 100%;
+        height: 70px;
+        background-color: rgba(1, 1, 1, 0.1); }
+        #contentBox > .animalBox > .animal_text > p {
+          font-size: 1.2rem;
+          text-align: center;
+          padding-top: 14px;
+          font-weight: bold; }
+    #contentBox > .slideBox {
+      float: right;
+      width: 65%;
+      height: 400px;
+      margin-top: 80px; }
+      #contentBox > .slideBox > ul {
+        width: 100%;
+        height: 100%; }
+        #contentBox > .slideBox > ul > li {
+          width: 100%;
+          height: 100%; }
+          #contentBox > .slideBox > ul > li > .picBox {
+            float: left;
+            width: 59%;
+            height: 100%;
+            background-color: #0a0; }
+          #contentBox > .slideBox > ul > li > .textBox {
+            float: right;
+            width: 40%;
+            height: 100%;
+            background-color: rgba(30, 30, 30, 0.1); }
+            #contentBox > .slideBox > ul > li > .textBox > p {
+              text-align: center;
+              padding-top: 165px;
+              font-size: 1.2rem;
+              font-weight: bold; }
+  #footBox {
+    width: 100%;
+    height: 80px;
+    background-color: #00136F;
+    max-width: 1440px;
+    margin: auto; } }

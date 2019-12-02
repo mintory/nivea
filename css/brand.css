@@ -138,38 +138,48 @@
         width: 42vw;
         height: 42vw;
         background-color: #cca; }
-    #contentBox > .textBox123 {
-      width: 90vw;
+    #contentBox > .text_box_p {
+      width: auto;
+      height: auto; }
+      #contentBox > .text_box_p > .textBox123 {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        margin-top: 25px; }
+        #contentBox > .text_box_p > .textBox123 dt {
+          font-size: 0.875rem;
+          font-weight: bold;
+          text-indent: 15px;
+          padding-top: 10px; }
+        #contentBox > .text_box_p > .textBox123 dd {
+          font-size: 0.75rem;
+          margin-top: 10px; }
+    #contentBox > .oli_Box {
+      width: auto;
       height: auto;
-      margin: auto;
-      margin-top: 25px; }
-      #contentBox > .textBox123 dt {
-        font-size: 0.875rem;
-        font-weight: bold;
-        text-indent: 15px;
-        padding-top: 10px; }
-      #contentBox > .textBox123 dd {
-        font-size: 0.75rem;
-        margin-top: 10px; }
-    #contentBox > .oil_image {
-      width: 90vw;
-      height: 200px;
-      margin: auto;
-      background-color: #cfc;
-      margin-top: 20px; }
-    #contentBox > .oil_textBox {
-      width: 90vw;
-      height: 180px;
-      margin: auto;
-      margin-top: 25px; }
-      #contentBox > .oil_textBox dt {
-        font-size: 0.875rem;
-        text-indent: 15px;
-        font-weight: bold;
-        padding-top: 10px; }
-      #contentBox > .oil_textBox dd {
-        font-size: 0.75rem;
-        margin-top: 10px; }
+      margin: auto; }
+      #contentBox > .oli_Box > .oil_image {
+        width: 90vw;
+        height: 200px;
+        margin: auto;
+        margin-top: 20px;
+        background-image: url("../../nivea_image/sub_product/oil_02.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; }
+      #contentBox > .oli_Box > .oil_textBox {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        margin-top: 25px; }
+        #contentBox > .oli_Box > .oil_textBox dt {
+          font-size: 0.875rem;
+          text-indent: 15px;
+          font-weight: bold;
+          padding-top: 10px; }
+        #contentBox > .oli_Box > .oil_textBox dd {
+          font-size: 0.75rem;
+          margin-top: 10px; }
     #contentBox > .animalBox {
       width: 90vw;
       height: 42vw;
@@ -179,7 +189,10 @@
         float: left;
         width: 42vw;
         height: 42vw;
-        background-color: #cac; }
+        background-image: url("../../nivea_image/sub_product/animal_test.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50% 50%; }
       #contentBox > .animalBox > .animal_text {
         position: relative;
         float: right;
@@ -200,18 +213,32 @@
       width: 90vw;
       height: 42vw;
       margin: auto;
-      margin-top: 25px; }
+      margin-top: 25px;
+      overflow: hidden; }
       #contentBox > .slideBox > ul {
-        width: 100%;
+        width: 500%;
         height: 100%; }
         #contentBox > .slideBox > ul > li {
-          width: 100%;
+          float: left;
+          width: 20%;
           height: 100%; }
           #contentBox > .slideBox > ul > li > .picBox {
             float: left;
             width: 42vw;
             height: 42vw;
-            background-color: #cac; }
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat; }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
+              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
+              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
+              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
+              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
+              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
           #contentBox > .slideBox > ul > li > .textBox {
             position: relative;
             float: right;
@@ -336,7 +363,156 @@
           #headBox > .navgation > ul > li:nth-child(2) > .slide_002 {
             display: none; }
           #headBox > .navgation > ul > li:nth-child(3) > .slide_003 {
-            display: none; } }
+            display: none; }
+  #contentBox {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px; }
+    #contentBox > .brand_textBox {
+      width: 100%;
+      height: 85px;
+      margin-top: 50px;
+      background-color: #EEF2FD;
+      color: #00136F; }
+      #contentBox > .brand_textBox > p {
+        text-align: center;
+        line-height: 85px;
+        font-weight: bold;
+        font-size: 1.3rem; }
+    #contentBox > .imageBox {
+      width: 90vw;
+      height: 42vw;
+      margin: auto;
+      margin-top: 50px; }
+      #contentBox > .imageBox > .image_L {
+        float: left;
+        width: 42vw;
+        height: 42vw;
+        background-color: #cac; }
+      #contentBox > .imageBox > .image_R {
+        float: right;
+        width: 42vw;
+        height: 42vw;
+        background-color: #cca; }
+    #contentBox > .text_box_p {
+      width: auto;
+      height: auto; }
+      #contentBox > .text_box_p > .textBox123 {
+        width: 90vw;
+        height: auto;
+        margin: auto;
+        margin-top: 25px; }
+        #contentBox > .text_box_p > .textBox123 dt {
+          font-size: 1.1rem;
+          font-weight: bold;
+          text-indent: 15px;
+          padding-top: 10px; }
+        #contentBox > .text_box_p > .textBox123 dd {
+          font-size: 1rem;
+          margin-top: 10px; }
+    #contentBox > .oli_Box {
+      width: 90%;
+      height: auto;
+      margin: auto; }
+      #contentBox > .oli_Box > .oil_image {
+        float: left;
+        width: 42vw;
+        height: 42vw;
+        background-image: url("../../nivea_image/sub_product/oil.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 80% 50%; }
+      #contentBox > .oli_Box > .oil_textBox {
+        float: right;
+        width: 42vw;
+        height: auto;
+        padding-top: 10vw; }
+        #contentBox > .oli_Box > .oil_textBox dt {
+          font-size: 1.1rem;
+          text-indent: 15px;
+          font-weight: bold; }
+        #contentBox > .oli_Box > .oil_textBox dd {
+          font-size: 0.7rem;
+          margin-top: 10px; }
+    #contentBox > .animalBox {
+      width: 90vw;
+      height: 42vw;
+      margin: auto; }
+      #contentBox > .animalBox > .animal_img {
+        float: left;
+        width: 42vw;
+        height: 42vw;
+        background-image: url("../../nivea_image/sub_product/animal_test.jpg");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      #contentBox > .animalBox > .animal_text {
+        position: relative;
+        float: right;
+        width: 42vw;
+        height: 42vw; }
+        #contentBox > .animalBox > .animal_text p {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          font-size: 1rem;
+          width: 42vw;
+          height: 42px;
+          margin: auto;
+          text-align: center; }
+    #contentBox > .slideBox {
+      width: 90vw;
+      height: 42vw;
+      margin: auto;
+      margin-top: 50px;
+      overflow: hidden; }
+      #contentBox > .slideBox > ul {
+        width: 500%;
+        height: 100%; }
+        #contentBox > .slideBox > ul > li {
+          float: left;
+          width: 20%;
+          height: 100%; }
+          #contentBox > .slideBox > ul > li > .picBox {
+            float: left;
+            width: 42vw;
+            height: 42vw;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat; }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
+              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
+              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
+              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
+              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
+              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
+          #contentBox > .slideBox > ul > li > .textBox {
+            position: relative;
+            float: right;
+            width: 42vw;
+            height: 42vw; }
+            #contentBox > .slideBox > ul > li > .textBox > p {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              font-size: 1rem;
+              width: 42vw;
+              height: 42px;
+              margin: auto;
+              text-align: center; }
+  #footBox {
+    width: 100%;
+    height: 80px;
+    background-color: #00136F; } }
 
 @media screen and (min-width: 1280px) {
   #headBox {
@@ -454,4 +630,170 @@
       left: 0;
       width: 100%;
       height: 0;
-      border: 1px solid #E8E8E8; } }
+      border: 1px solid #E8E8E8; }
+  #contentBox {
+    width: 100%;
+    height: 1800px;
+    padding-top: 180px;
+    max-width: 1440px;
+    margin: auto;
+    background-color: #fff;
+    padding-bottom: 80px; }
+    #contentBox > .brand_textBox {
+      width: 100%;
+      height: 85px;
+      margin-top: 50px;
+      max-width: 1440px;
+      margin: auto;
+      background-color: #EEF2FD;
+      color: #00136F; }
+      #contentBox > .brand_textBox > p {
+        text-align: center;
+        line-height: 85px;
+        font-weight: bold;
+        font-size: 1.3rem; }
+    #contentBox > .imageBox {
+      width: 100%;
+      height: auto;
+      margin: auto;
+      margin-top: 70px; }
+      #contentBox > .imageBox > .image_L {
+        float: left;
+        width: 35%;
+        height: 400px;
+        background-color: #fac; }
+      #contentBox > .imageBox > .image_R {
+        float: right;
+        width: 60%;
+        height: 400px;
+        background-color: #fcc; }
+    #contentBox > .text_box_p {
+      float: left;
+      width: 65%;
+      height: auto;
+      margin: auto;
+      margin-top: 80px; }
+      #contentBox > .text_box_p > .textBox123 {
+        width: 100%;
+        height: 130px;
+        background-color: rgba(1, 1, 1, 0.1);
+        margin-top: 40px; }
+        #contentBox > .text_box_p > .textBox123 > dl {
+          width: 100%;
+          height: 100%; }
+          #contentBox > .text_box_p > .textBox123 > dl > dt {
+            font-size: 1.2rem;
+            text-indent: 20px;
+            padding-top: 20px;
+            font-weight: bold; }
+          #contentBox > .text_box_p > .textBox123 > dl > dd {
+            font-size: 1rem;
+            padding: 15px 20px; }
+        #contentBox > .text_box_p > .textBox123:first-child {
+          margin-top: 0; }
+    #contentBox > .text_box_iii {
+      float: right;
+      width: 30%;
+      height: 300px;
+      margin-top: 80px;
+      background-color: #888;
+      background-position: 50% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url("../../nivea_image/sub_product/onejaro.jpg"); }
+    #contentBox > .oli_Box {
+      float: left;
+      width: 100%;
+      height: auto;
+      margin-top: 80px; }
+      #contentBox > .oli_Box > .oil_image {
+        float: left;
+        width: 65%;
+        height: 300px;
+        background-image: url("../../nivea_image/sub_product/oil_02.jpg");
+        background-position: 50% 90%;
+        background-size: cover;
+        background-repeat: no-repeat; }
+      #contentBox > .oli_Box > .oil_textBox {
+        float: right;
+        width: 30%;
+        height: 300px;
+        background-color: rgba(1, 1, 1, 0.1); }
+        #contentBox > .oli_Box > .oil_textBox > dl {
+          width: 100%;
+          height: 100%; }
+          #contentBox > .oli_Box > .oil_textBox > dl > dt {
+            font-size: 1.2rem;
+            text-indent: 20px;
+            padding-top: 55px;
+            font-weight: bold; }
+          #contentBox > .oli_Box > .oil_textBox > dl > dd {
+            font-size: 1rem;
+            padding: 15px 20px; }
+    #contentBox > .animalBox {
+      float: left;
+      width: 30%;
+      height: 400px;
+      margin-top: 80px; }
+      #contentBox > .animalBox > .animal_img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("../../nivea_image/sub_product/animal_test.jpg"); }
+      #contentBox > .animalBox > .animal_text {
+        width: 100%;
+        height: 70px; }
+        #contentBox > .animalBox > .animal_text > p {
+          font-size: 1.2rem;
+          text-align: center;
+          padding-top: 14px;
+          font-weight: bold; }
+    #contentBox > .slideBox {
+      float: right;
+      width: 65%;
+      height: 400px;
+      margin-top: 80px;
+      overflow: hidden; }
+      #contentBox > .slideBox > ul {
+        width: 500%;
+        height: 100%; }
+        #contentBox > .slideBox > ul > li {
+          float: left;
+          width: 20%;
+          height: 100%; }
+          #contentBox > .slideBox > ul > li > .picBox {
+            float: left;
+            width: 52%;
+            height: 100%;
+            background-position: 50% 50%;
+            background-size: cover;
+            background-repeat: no-repeat; }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
+              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
+              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
+              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
+              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+            #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
+              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
+          #contentBox > .slideBox > ul > li > .textBox {
+            float: right;
+            width: 46%;
+            height: 100%;
+            background-color: rgba(30, 30, 30, 0.1); }
+            #contentBox > .slideBox > ul > li > .textBox > p {
+              text-align: center;
+              padding-top: 165px;
+              font-size: 1rem;
+              font-weight: bold; }
+  #footBox {
+    width: 100%;
+    height: 80px;
+    background-color: #00136F;
+    max-width: 1440px;
+    margin: auto; } }
