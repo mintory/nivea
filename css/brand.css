@@ -661,22 +661,31 @@
         float: left;
         width: 35%;
         height: 400px;
-        background-color: #fac; }
+        background-image: url("../../nivea_image/sub_product/brand.png");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover; }
       #contentBox > .imageBox > .image_R {
         float: right;
         width: 60%;
         height: 400px;
-        background-color: #fcc; }
+        background-image: url("../../nivea_image/sub_product/nivea_store.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% auto;
+        background-size: cover; }
     #contentBox > .text_box_p {
       float: left;
       width: 65%;
       height: auto;
       margin: auto;
-      margin-top: 80px; }
+      margin-top: 60px; }
       #contentBox > .text_box_p > .textBox123 {
         width: 100%;
         height: 130px;
-        background-color: rgba(1, 1, 1, 0.1);
+        border: 2px solid #00136F;
+        border-radius: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
         margin-top: 40px; }
         #contentBox > .text_box_p > .textBox123 > dl {
           width: 100%;
@@ -684,19 +693,21 @@
           #contentBox > .text_box_p > .textBox123 > dl > dt {
             font-size: 1.2rem;
             text-indent: 20px;
-            padding-top: 20px;
+            padding-top: 15px;
             font-weight: bold; }
           #contentBox > .text_box_p > .textBox123 > dl > dd {
             font-size: 1rem;
-            padding: 15px 20px; }
+            padding: 5px 20px; }
         #contentBox > .text_box_p > .textBox123:first-child {
           margin-top: 0; }
     #contentBox > .text_box_iii {
       float: right;
       width: 30%;
       height: 300px;
-      margin-top: 80px;
-      background-color: #888;
+      margin-top: 60px;
+      border-radius: 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
       background-position: 50% 50%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -710,6 +721,7 @@
         float: left;
         width: 65%;
         height: 300px;
+        border-radius: 20px;
         background-image: url("../../nivea_image/sub_product/oil_02.jpg");
         background-position: 50% 90%;
         background-size: cover;
@@ -718,18 +730,21 @@
         float: right;
         width: 30%;
         height: 300px;
-        background-color: rgba(1, 1, 1, 0.1); }
+        border: 2px solid #00136F;
+        border-radius: 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
         #contentBox > .oli_Box > .oil_textBox > dl {
           width: 100%;
           height: 100%; }
           #contentBox > .oli_Box > .oil_textBox > dl > dt {
             font-size: 1.2rem;
             text-indent: 20px;
-            padding-top: 55px;
+            padding-top: 15px;
             font-weight: bold; }
           #contentBox > .oli_Box > .oil_textBox > dl > dd {
             font-size: 1rem;
-            padding: 15px 20px; }
+            padding: 5px 20px; }
     #contentBox > .animalBox {
       float: left;
       width: 30%;
@@ -758,11 +773,13 @@
       margin-top: 80px;
       overflow: hidden; }
       #contentBox > .slideBox > ul {
-        width: 500%;
+        position: relative;
+        left: -100%;
+        width: 600%;
         height: 100%; }
         #contentBox > .slideBox > ul > li {
           float: left;
-          width: 20%;
+          width: 16.66667%;
           height: 100%; }
           #contentBox > .slideBox > ul > li > .picBox {
             float: left;
@@ -784,8 +801,7 @@
           #contentBox > .slideBox > ul > li > .textBox {
             float: right;
             width: 46%;
-            height: 100%;
-            background-color: rgba(30, 30, 30, 0.1); }
+            height: 100%; }
             #contentBox > .slideBox > ul > li > .textBox > p {
               text-align: center;
               padding-top: 165px;
@@ -793,7 +809,7 @@
               font-weight: bold; }
   #footBox {
     width: 100%;
-    height: 80px;
+    height: 180px;
     background-color: #00136F;
     max-width: 1440px;
     margin: auto; } }

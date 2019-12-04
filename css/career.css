@@ -530,7 +530,10 @@
       max-height: 400px;
       margin: auto;
       margin-top: 80px;
-      background-color: #ccc; }
+      background-image: url("../../nivea_image/sub_product/career_img_01.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
     #contentBox > .main_img_text {
       width: 70%;
       height: auto;
@@ -539,7 +542,7 @@
       text-align: center;
       margin-left: 15%; }
       #contentBox > .main_img_text > p {
-        font-size: 0.8125rem; }
+        font-size: 1rem; }
     #contentBox > .main_img_02 {
       width: 67%;
       height: 83vw;
@@ -547,7 +550,10 @@
       max-height: 400px;
       margin: auto;
       margin-top: 80px;
-      background-color: #ccc; }
+      background-image: url("../../nivea_image/sub_product/career_img_02.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%; }
     #contentBox > .main_img_text_02 {
       width: 67%;
       height: auto;
@@ -556,7 +562,7 @@
       text-align: center;
       margin-left: 16.5%; }
       #contentBox > .main_img_text_02 > p {
-        font-size: 0.8125rem; }
+        font-size: 1rem; }
     #contentBox > .hire_text {
       width: 100%;
       max-width: 1440px;
@@ -578,15 +584,17 @@
       margin-top: 40px; }
       #contentBox > .hire_text_Box > p {
         text-align: center;
-        font-size: 0.9rem; }
+        font-size: 1rem; }
     #contentBox > .hire_text_image {
       width: 62.5vw;
       height: 62.5vw;
       max-width: 400px;
       max-height: 400px;
-      background-color: #aaa;
       margin: auto;
-      margin-top: 40px; }
+      background-image: url("../../nivea_image/sub_product/onejaro.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-position: 50% 50%; }
     #contentBox > .hire_text_sub {
       text-align: center;
       margin-top: 10px; }

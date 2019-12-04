@@ -56,27 +56,30 @@
 		}//main_text
 
 	>.main_img{width: 67%; height: 83vw; max-width:960px; max-height: 400px;
-				 margin:auto; margin-top: 80px; background-color: #ccc;}
+				 margin:auto; margin-top: 80px; background-image: url("../../nivea_image/sub_product/career_img_01.jpg");
+					background-repeat: no-repeat; background-size:cover; background-position:50% 50%;}
 	>.main_img_text{width: 70%; height: auto; max-height: 400px; margin-top: 10px; text-align:center;
 						margin-left: 15%;
-		>p{font-size: 0.8125rem;}
+		>p{font-size: 1rem;}
 		}//main_img_text
 
 
 	>.main_img_02{width: 67%; height: 83vw; max-width:960px; max-height: 400px;
-				 margin:auto; margin-top: 80px; background-color: #ccc;}
+				 margin:auto; margin-top: 80px; background-image: url("../../nivea_image/sub_product/career_img_02.jpg");
+					background-repeat: no-repeat; background-size:cover; background-position:50% 50%;}
 	>.main_img_text_02{width: 67%; height: auto; max-height: 400px; margin-top: 10px; text-align:center;
 						margin-left: 16.5%;
-		>p{font-size: 0.8125rem;}
+		>p{font-size: 1rem;}
 	}//main_img_text_02
 
 	>.hire_text{width: 100%; max-width:1440px; margin: auto; height: 85px; background-color: #EEF2FD; margin-top: 80px;
 		>p{text-align:center; line-height:85px; color:#00136F; font-weight:bold; font-size: 1.3rem;}
 		}//main_text_02
 	>.hire_text_Box{width: 90vw; max-width:1440px; height: auto; margin:auto; margin-top: 40px;
-		>p{text-align:center; font-size: 0.9rem;}}
-	>.hire_text_image{width: 62.5vw; height: 62.5vw; max-width:400px; max-height:400px;
-						background-color: #aaa; margin:auto; margin-top: 40px;}
+		>p{text-align:center; font-size: 1rem;}}
+	>.hire_text_image{width: 62.5vw; height: 62.5vw; max-width:400px; max-height:400px; margin:auto;
+					  	background-image: url("../../nivea_image/sub_product/onejaro.png");
+						background-repeat: no-repeat; background-size:100%; background-position:50% 50%;}
 	>.hire_text_sub{text-align:center; margin-top:10px;
 		>a{font-size: 1.125rem; font-weight: 999; color:#00136F;}
 	}//

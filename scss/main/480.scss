@@ -50,10 +50,8 @@
 
 #contentBox{z-index:30; width: 100%; height: auto; background-color: #ccc;
 	.main_slide{position:fixed; top:80px; left:0; right:0; margin:auto; width: 100%; height: 400px; overflow:hidden;
-		>.btn{position:absolute; top:0; left:0; right:0; margin:auto; z-index:20; 
-				width: 150px; height: 30px; margin:auto;
-			>button{background-color:transparent; color:#00136F; background-color: rgba(255,255,255,0.7); 
-				border-radius:30px; font-size: 1.2rem; line-height:30px;}
+		>.btn{position:absolute; top:20px; left:20px; z-index:20;  width: 140px; height: 30px;
+			>button{color:#00136F; background-color: inherit; font-size: 1.5rem; line-height:30px;}
 			>.prevBtn{float:left;}
 			>.nextBtn{float:right;}
 		>.indicator{display:none;}

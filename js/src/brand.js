@@ -25,14 +25,23 @@ slide_li.on('mouseleave',function(){
 
 const slideBox = $('.slideBox');
 const ul = slideBox.children('ul');
-const li = ul.children('li');
+let li = ul.children('li');
+
+li.eq(-1).clone(true).prependTo(ul);
+li = ul.children('li');
+
+
 
 i=0;
 
 setInterval(function(){
 	i++;
-	ul.animate({'marginLeft':-100 * i +'%'})
-	if(i>=4){i=0}
+	if(i>=5){i=0;
+	ul.css({'marginLeft':100 + '%'});
+	}
+	ul.animate({'marginLeft':-100 * i +'%'},function(){
+
+	});
 },2000);
 
 
