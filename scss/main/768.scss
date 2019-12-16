@@ -60,9 +60,9 @@
 		>ul{$count:4; position:relative; margin-left:-100%; width: 100% * $count; height: 100%;
 			>li{float:left; width: 100% / $count; height: 100%; 
 				background-size:cover; background-repeat:no-repeat; background-position:51% 50%;
-			&.main_slide_image_01{background-image:url("../../nivea_image/main/main_image_01.jpg");}
-			&.main_slide_image_02{background-image:url("../../nivea_image/main/nivea_insta_04.jpg");}
-			&.main_slide_image_03{background-image:url("../../nivea_image/main/nivea_ad_01.jpg");}
+			&.main_slide_image_01{background-image:url("../nivea_image/main/nivea_image_01.jpg");}
+			&.main_slide_image_02{background-image:url("../nivea_image/main/nivea_image_02.jpg");}
+			&.main_slide_image_03{background-image:url("../nivea_image/main/nivea_image_03.png");}
 
 		}
 		}//ul
@@ -114,8 +114,16 @@
 		>p{text-align:center; text-transform:uppercase; font-size: 1.5rem; color:#00136F;
 			font-weight:bold;padding-top:80px;}//p
 		>ul{width: 90%; height: 100%; margin:auto; margin-top:50px;
-			>li{float:left; width: 45%; height: 60vw; margin-right:5%; margin-left:2.5%; margin-bottom:5%; background-color: #ccc;
+			>li{ position:relative; float:left; width: 45%; height: 60vw; margin-right:5%; margin-left:2.5%; margin-bottom:5%;
+				background-size:100%; background-position: 50% 50%; background-repeat:no-repeat;
+				&:first-child{background-image:url("../../nivea_image/main/best_choice_01.jpg")}
+				&:nth-child(2){background-image:url("../../nivea_image/main/best_choice_02.jpg")}
+				&:nth-child(3){background-image:url("../../nivea_image/main/best_choice_03.jpg");background-position: 50% 32%;}
+				&:nth-child(4){background-image:url("../../nivea_image/main/best_choice_04.jpg");background-position: 50% 32%;}
+				&:last-child{margin-right:0;}
 				&:nth-child(2n){margin-right:0; margin-left:0;}
+					>p{position:absolute; bottom:20px; right:0; left:0; margin: auto; font-weight: bold;
+					width: 100%; height:auto; text-align:center; font-size: 0.9rem;}
 			}//li
 		}//ul
 	}//bestChoice
