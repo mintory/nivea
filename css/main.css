@@ -20,7 +20,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -231,7 +231,7 @@
               height: 250px;
               margin: auto;
               border-radius: 20px;
-              background-image: url("../../nivea_image/main/nivea_ad_03.jpg");
+              background-image: url("../nivea_image/main/nivea_ad_03.jpg");
               background-position: 50% 50%;
               background-size: cover;
               background-repeat: no-repeat; }
@@ -278,7 +278,7 @@
             background-position: 50% 50%;
             background-repeat: no-repeat; }
             #contentBox .whitebg .bestChoice > ul > li:first-child {
-              background-image: url("../../nivea_image/main/best_choice_01.jpg"); }
+              background-image: url("../nivea_image/main/best_choice_01.jpg"); }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(2n) {
               margin-right: 0;
               margin-left: 0; }
@@ -310,19 +310,19 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox .whitebg .media_area > ul > li:nth-child(1) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(2) {
-              background-image: url("../../nivea_image/main/nivea_insta_03.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_03.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(3n) {
               margin-right: 0;
               margin-bottom: 0;
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(4) {
-              background-image: url("../../nivea_image/main/nivea_insta_04.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_04.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(5) {
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(6) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg"); }
   #footBox {
     width: 100%;
     height: 180px;
@@ -346,7 +346,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -578,11 +578,11 @@
               background-size: cover;
               background-repeat: no-repeat; }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img01 {
-              background-image: url("../../nivea_image/main/nivea_ad_03.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_03.jpg"); }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img02 {
-              background-image: url("../../nivea_image/main/nivea_ad_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_02.jpg"); }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img03 {
-              background-image: url("../../nivea_image/main/nivea_ad_01.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_01.jpg"); }
       #contentBox .whitebg .bestChoice {
         width: 100%;
         height: auto;
@@ -612,14 +612,14 @@
             background-position: 50% 50%;
             background-repeat: no-repeat; }
             #contentBox .whitebg .bestChoice > ul > li:first-child {
-              background-image: url("../../nivea_image/main/best_choice_01.jpg"); }
+              background-image: url("../nivea_image/main/best_choice_01.jpg"); }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(2) {
-              background-image: url("../../nivea_image/main/best_choice_02.jpg"); }
+              background-image: url("../nivea_image/main/best_choice_02.jpg"); }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(3) {
-              background-image: url("../../nivea_image/main/best_choice_03.jpg");
+              background-image: url("../nivea_image/main/best_choice_03.jpg");
               background-position: 50% 32%; }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(4) {
-              background-image: url("../../nivea_image/main/best_choice_04.jpg");
+              background-image: url("../nivea_image/main/best_choice_04.jpg");
               background-position: 50% 32%; }
             #contentBox .whitebg .bestChoice > ul > li:last-child {
               margin-right: 0; }
@@ -665,19 +665,19 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox .whitebg .media_area > ul > li:nth-child(1) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(2) {
-              background-image: url("../../nivea_image/main/nivea_insta_03.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_03.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(3n) {
               margin-right: 0;
               margin-bottom: 0;
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(4) {
-              background-image: url("../../nivea_image/main/nivea_insta_04.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_04.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(5) {
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(6) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg"); }
   #footBox {
     width: 100%;
     height: 180px;
@@ -975,11 +975,11 @@
               background-size: cover;
               background-repeat: no-repeat; }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img01 {
-              background-image: url("../../nivea_image/main/nivea_ad_03.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_03.jpg"); }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img02 {
-              background-image: url("../../nivea_image/main/nivea_ad_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_02.jpg"); }
             #contentBox .whitebg .forYou > ul > .allfor > .for_img03 {
-              background-image: url("../../nivea_image/main/nivea_ad_01.jpg"); }
+              background-image: url("../nivea_image/main/nivea_ad_01.jpg"); }
       #contentBox .whitebg .bestChoice {
         width: 100%;
         height: 650px;
@@ -1007,14 +1007,14 @@
             background-position: 50% 50%;
             background-repeat: no-repeat; }
             #contentBox .whitebg .bestChoice > ul > li:first-child {
-              background-image: url("../../nivea_image/main/best_choice_01.jpg"); }
+              background-image: url("../nivea_image/main/best_choice_01.jpg"); }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(2) {
-              background-image: url("../../nivea_image/main/best_choice_02.jpg"); }
+              background-image: url("../nivea_image/main/best_choice_02.jpg"); }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(3) {
-              background-image: url("../../nivea_image/main/best_choice_03.jpg");
+              background-image: url("../nivea_image/main/best_choice_03.jpg");
               background-position: 50% 32%; }
             #contentBox .whitebg .bestChoice > ul > li:nth-child(4) {
-              background-image: url("../../nivea_image/main/best_choice_04.jpg");
+              background-image: url("../nivea_image/main/best_choice_04.jpg");
               background-position: 50% 32%; }
             #contentBox .whitebg .bestChoice > ul > li:last-child {
               margin-right: 0; }
@@ -1057,17 +1057,17 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox .whitebg .media_area > ul > li:nth-child(1) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(2) {
-              background-image: url("../../nivea_image/main/nivea_insta_03.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_03.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(3) {
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(4) {
-              background-image: url("../../nivea_image/main/nivea_insta_04.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_04.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(5) {
-              background-image: url("../../nivea_image/main/nivea_insta_05.jpg"); }
+              background-image: url("../nivea_image/main/nivea_insta_05.jpg"); }
             #contentBox .whitebg .media_area > ul > li:nth-child(6) {
-              background-image: url("../../nivea_image/main/nivea_insta_02.jpg");
+              background-image: url("../nivea_image/main/nivea_insta_02.jpg");
               margin-right: 0; }
   #footBox {
     width: 100%;
