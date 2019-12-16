@@ -21,7 +21,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -213,7 +213,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -408,7 +408,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -530,7 +530,7 @@
       max-height: 400px;
       margin: auto;
       margin-top: 80px;
-      background-image: url("../../nivea_image/sub_product/career_img_01.jpg");
+      background-image: url("../nivea_image/sub_product/career_img_01.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%; }
@@ -550,7 +550,7 @@
       max-height: 400px;
       margin: auto;
       margin-top: 80px;
-      background-image: url("../../nivea_image/sub_product/career_img_02.jpg");
+      background-image: url("../nivea_image/sub_product/career_img_02.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: 50% 50%; }
@@ -591,7 +591,7 @@
       max-width: 400px;
       max-height: 400px;
       margin: auto;
-      background-image: url("../../nivea_image/sub_product/onejaro.png");
+      background-image: url("../nivea_image/sub_product/onejaro.png");
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: 50% 50%; }

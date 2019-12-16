@@ -21,7 +21,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -163,7 +163,7 @@
         height: 200px;
         margin: auto;
         margin-top: 20px;
-        background-image: url("../../nivea_image/sub_product/oil_02.jpg");
+        background-image: url("../nivea_image/sub_product/oil_02.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -189,7 +189,7 @@
         float: left;
         width: 42vw;
         height: 42vw;
-        background-image: url("../../nivea_image/sub_product/animal_test.jpg");
+        background-image: url("../nivea_image/sub_product/animal_test.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -230,15 +230,15 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
-              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_01.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
-              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_02.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
-              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_03.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
-              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_04.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
-              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_05.jpg"); }
           #contentBox > .slideBox > ul > li > .textBox {
             position: relative;
             float: right;
@@ -278,7 +278,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -419,7 +419,7 @@
         float: left;
         width: 42vw;
         height: 42vw;
-        background-image: url("../../nivea_image/sub_product/oil.png");
+        background-image: url("../nivea_image/sub_product/oil.png");
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 80% 50%; }
@@ -443,7 +443,7 @@
         float: left;
         width: 42vw;
         height: 42vw;
-        background-image: url("../../nivea_image/sub_product/animal_test.jpg");
+        background-image: url("../nivea_image/sub_product/animal_test.jpg");
         background-position: 50% 50%;
         background-size: cover;
         background-repeat: no-repeat; }
@@ -484,15 +484,15 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
-              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_01.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
-              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_02.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
-              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_03.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
-              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_04.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
-              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_05.jpg"); }
           #contentBox > .slideBox > ul > li > .textBox {
             position: relative;
             float: right;
@@ -535,7 +535,7 @@
         display: block;
         width: 100%;
         height: 100%;
-        background-image: url("../../nivea_image/logo/nivea_logo.png");
+        background-image: url("../nivea_image/logo/nivea_logo.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 50% 50%; }
@@ -661,7 +661,7 @@
         float: left;
         width: 35%;
         height: 400px;
-        background-image: url("../../nivea_image/sub_product/brand.png");
+        background-image: url("../nivea_image/sub_product/brand.png");
         background-repeat: no-repeat;
         background-position: 50% 50%;
         background-size: cover; }
@@ -669,7 +669,7 @@
         float: right;
         width: 60%;
         height: 400px;
-        background-image: url("../../nivea_image/sub_product/nivea_store.jpg");
+        background-image: url("../nivea_image/sub_product/nivea_store.jpg");
         background-repeat: no-repeat;
         background-position: 50% auto;
         background-size: cover; }
@@ -711,7 +711,7 @@
       background-position: 50% 50%;
       background-size: cover;
       background-repeat: no-repeat;
-      background-image: url("../../nivea_image/sub_product/onejaro.jpg"); }
+      background-image: url("../nivea_image/sub_product/onejaro.jpg"); }
     #contentBox > .oli_Box {
       float: left;
       width: 100%;
@@ -722,7 +722,7 @@
         width: 65%;
         height: 300px;
         border-radius: 20px;
-        background-image: url("../../nivea_image/sub_product/oil_02.jpg");
+        background-image: url("../nivea_image/sub_product/oil_02.jpg");
         background-position: 50% 90%;
         background-size: cover;
         background-repeat: no-repeat; }
@@ -757,7 +757,7 @@
         background-position: 50% 50%;
         background-size: contain;
         background-repeat: no-repeat;
-        background-image: url("../../nivea_image/sub_product/animal_test.jpg"); }
+        background-image: url("../nivea_image/sub_product/animal_test.jpg"); }
       #contentBox > .animalBox > .animal_text {
         width: 100%;
         height: 70px; }
@@ -789,15 +789,15 @@
             background-size: cover;
             background-repeat: no-repeat; }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_01 {
-              background-image: url("../../nivea_image/sub_product/brand_image_01.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_01.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_02 {
-              background-image: url("../../nivea_image/sub_product/brand_image_02.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_02.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_03 {
-              background-image: url("../../nivea_image/sub_product/brand_image_03.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_03.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_04 {
-              background-image: url("../../nivea_image/sub_product/brand_image_04.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_04.jpg"); }
             #contentBox > .slideBox > ul > li > .picBox.pic_img_05 {
-              background-image: url("../../nivea_image/sub_product/brand_image_05.jpg"); }
+              background-image: url("../nivea_image/sub_product/brand_image_05.jpg"); }
           #contentBox > .slideBox > ul > li > .textBox {
             float: right;
             width: 46%;
